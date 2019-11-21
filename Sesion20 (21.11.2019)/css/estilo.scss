@@ -1,10 +1,18 @@
+@font-face {
+  font-family: "miFuente1";
+  src: url("../fuentes/IndieFlower-Regular.ttf");
+}
+$fuenteFace: "miFuente1";
+
+$fuente1: "Courier New", Courier, monospace;
+
 div {
   width: 80%;
   min-height: 400px;
   background-color: azure;
   margin-left: auto;
   margin-right: auto;
-  border:2px solid yellow;
+  border: 2px solid black;
 
   .cajaroja {
     width: 60%;
@@ -12,5 +20,6 @@ div {
     min-height: 200px;
     margin-left: auto;
     margin-right: auto;
+    font-family: $fuenteFace;
   }
 }
