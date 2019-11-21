@@ -1,0 +1,17 @@
+div {
+  width: 80%;
+  min-height: 400px;
+  background-color: azure;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid yellow;
+}
+div .cajaroja {
+  width: 60%;
+  background-color: red;
+  min-height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*# sourceMappingURL=estilo.css.map */
