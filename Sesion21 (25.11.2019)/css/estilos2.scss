@@ -1,0 +1,10 @@
+@import "imporstarestilos2.scss";
+
+$fuente1: Courier New, Courier, monospace;
+$colorprincipal:royalblue;
+
+body{
+    font:1em $fuente1;
+    color:$colorprincipal;
+}
+
