@@ -1,0 +1,33 @@
+h2 {
+  font-size: 27px;
+}
+
+h3 {
+  font-size: 7px;
+  /*INCOMPATIBLES*/
+}
+
+.contenedor {
+  width: 80%;
+  display: flow-root;
+  border: 2px solid black;
+  background-color: blue;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+article[role=main] {
+  float: left;
+  min-height: 400px;
+  background-color: royalblue;
+  width: 62.5%;
+}
+
+aside[role=complementary] {
+  float: left;
+  background-color: skyblue;
+  min-height: 400px;
+  width: 37.5%;
+}
+
+/*# sourceMappingURL=estilos3.css.map */
