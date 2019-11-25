@@ -1,0 +1,32 @@
+.capacontenedora1 {
+  width: 80%;
+  min-height: 400px;
+  background-color: cadetblue;
+  margin-left: auto;
+  margin-right: auto;
+  > .capahija1 {
+    width: 50%;
+    min-height: 200px;
+    background-color: rgba(255, 223, 80, 0.411);
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.capacontenedora2 {
+  width: 80%;
+  min-height: 400px;
+  background-color: palegreen;
+  margin-left: auto;
+  border: 2px solid black;
+  margin-right: auto;
+  .capahija2 {
+    width: 50%;
+    min-height: 200px;
+    background-color: rgb(143, 253, 246);
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px dashed black;
+    box-sizing: border-box;
+  }
+}
