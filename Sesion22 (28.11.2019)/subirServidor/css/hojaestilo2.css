@@ -1,0 +1,89 @@
+.caja5__texto1, .caja4__texto1, .caja3__texto1, .caja2__texto1, .caja1__texto1 {
+  font-family: fantasy;
+  text-decoration: underline hotpink;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+.caja1 {
+  -webkit-border-radius: 20%;
+  -moz-border-radius: 20%;
+  -ms-border-radius: 20%;
+  border-radius: 20%;
+  border: 2px dashed blueviolet;
+  width: 20%;
+  float: left;
+  box-sizing: border-box;
+  min-height: 100px;
+  margin-bottom: 20px;
+  font-size: 10px;
+}
+.caja1:hover {
+  background-color: deeppink;
+}
+.caja2 {
+  -webkit-border-radius: 20%;
+  -moz-border-radius: 20%;
+  -ms-border-radius: 20%;
+  border-radius: 20%;
+  border: 2px dashed blueviolet;
+  width: 20%;
+  float: left;
+  box-sizing: border-box;
+  min-height: 100px;
+  margin-bottom: 20px;
+  font-size: 10px;
+}
+.caja2:hover {
+  background-color: deeppink;
+}
+.caja3 {
+  -webkit-border-radius: 20%;
+  -moz-border-radius: 20%;
+  -ms-border-radius: 20%;
+  border-radius: 20%;
+  border: 2px dashed blueviolet;
+  width: 20%;
+  float: left;
+  box-sizing: border-box;
+  min-height: 100px;
+  margin-bottom: 20px;
+  font-size: 10px;
+}
+.caja3:hover {
+  background-color: deeppink;
+}
+.caja4 {
+  -webkit-border-radius: 20%;
+  -moz-border-radius: 20%;
+  -ms-border-radius: 20%;
+  border-radius: 20%;
+  border: 2px dashed blueviolet;
+  width: 20%;
+  float: left;
+  box-sizing: border-box;
+  min-height: 100px;
+  margin-bottom: 20px;
+  font-size: 10px;
+}
+.caja4:hover {
+  background-color: deeppink;
+}
+.caja5 {
+  -webkit-border-radius: 20%;
+  -moz-border-radius: 20%;
+  -ms-border-radius: 20%;
+  border-radius: 20%;
+  border: 2px dashed blueviolet;
+  width: 20%;
+  float: left;
+  box-sizing: border-box;
+  min-height: 100px;
+  margin-bottom: 20px;
+  font-size: 10px;
+}
+.caja5:hover {
+  background-color: deeppink;
+}
+
+/*# sourceMappingURL=hojaestilo2.css.map */
