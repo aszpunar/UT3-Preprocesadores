@@ -1,0 +1,65 @@
+.caja1 {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+  border: 2px dashed blueviolet;
+  width: 25%;
+  float: left;
+  box-sizing: border-box;
+  min-height: 100px;
+  margin-bottom: 20px;
+}
+.caja1:hover {
+  background-color: deeppink;
+}
+
+.caja2 {
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+  -ms-border-radius: 40px;
+  border-radius: 40px;
+  border: 2px dashed dodgerblue;
+  width: 25%;
+  float: left;
+  box-sizing: border-box;
+  min-height: 100px;
+  margin-bottom: 20px;
+}
+.caja2:hover {
+  background-color: deeppink;
+}
+
+.caja3 {
+  -webkit-border-radius: 30em;
+  -moz-border-radius: 30em;
+  -ms-border-radius: 30em;
+  border-radius: 30em;
+  border: 2px dashed darkseagreen;
+  width: 25%;
+  float: left;
+  box-sizing: border-box;
+  min-height: 100px;
+  margin-bottom: 20px;
+}
+.caja3:hover {
+  background-color: deeppink;
+}
+
+.caja4 {
+  -webkit-border-radius: 25%;
+  -moz-border-radius: 25%;
+  -ms-border-radius: 25%;
+  border-radius: 25%;
+  border: 2px dashed red;
+  width: 25%;
+  float: left;
+  box-sizing: border-box;
+  min-height: 100px;
+  margin-bottom: 20px;
+}
+.caja4:hover {
+  background-color: deeppink;
+}
+
+/*# sourceMappingURL=hojaestilo.css.map */

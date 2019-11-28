@@ -1,0 +1,36 @@
+@mixin border-radius($radio, $color) {
+  -webkit-border-radius: $radio;
+  -moz-border-radius: $radio;
+  -ms-border-radius: $radio;
+  border-radius: $radio;
+  border: 2px dashed $color;
+}
+
+@mixin modificarcaja() {
+  width: 250px / 1000px * 100%;
+  float: left;
+  box-sizing: border-box;
+  min-height: 100px;
+  margin-bottom: 20px;
+  &:hover{
+      background-color: deeppink;
+  }
+}
+
+.caja1 {
+  @include border-radius(50%, blueviolet);
+  @include modificarcaja();
+  
+}
+.caja2 {
+  @include border-radius(40px, dodgerblue);
+  @include modificarcaja();
+}
+.caja3 {
+  @include border-radius(30em, darkseagreen);
+  @include modificarcaja();
+}
+.caja4 {
+  @include border-radius(25%, red);
+  @include modificarcaja();
+}

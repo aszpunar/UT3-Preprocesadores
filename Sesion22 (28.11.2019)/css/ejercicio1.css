@@ -1,0 +1,18 @@
+.block {
+  min-height: 200px;
+  background-color: blue;
+}
+.block__element {
+  min-height: 150px;
+  background-color: cadetblue;
+}
+.block__element__block2 {
+  min-height: 100px;
+  background-color: chartreuse;
+}
+.block__element__block2__element2 {
+  min-height: 50px;
+  background-color: crimson;
+}
+
+/*# sourceMappingURL=ejercicio1.css.map */

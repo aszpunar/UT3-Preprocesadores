@@ -1,0 +1,19 @@
+
+.block{
+    min-height: 200px;
+    background-color: blue;
+    &__element{
+        min-height: 150px;
+        background-color: cadetblue;
+        &__block2{
+            min-height: 100px;
+            background-color: chartreuse;
+            &__element2{
+                min-height: 50px;
+                background-color: crimson;
+            }
+        }
+    }
+}
+
+    
