@@ -1,0 +1,21 @@
+%contenedor{
+    //Estilos para contenedor flex
+   
+    background-color: powderblue;
+    display: flex;
+}
+%capahija{
+    padding: 20px;
+    margin:10px;
+    font-size: 1.8rem;
+    background-color: plum;
+    border: 2px dashed black;
+    box-sizing: border-box;
+}
+.contenedorflex{
+    @extend %contenedor;
+    > div{
+        @extend %capahija;
+    }
+}
+

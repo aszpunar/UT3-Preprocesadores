@@ -1,0 +1,15 @@
+.contenedorflex {
+  background-color: powderblue;
+  display: flex;
+}
+
+.contenedorflex > div {
+  padding: 20px;
+  margin: 10px;
+  font-size: 1.8rem;
+  background-color: plum;
+  border: 2px dashed black;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=style4.css.map */
