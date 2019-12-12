@@ -1,0 +1,31 @@
+%capahija{
+    background-color: hotpink;  
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+    font-size: 2.8rem;
+}
+%contenedor{
+    display: flex;
+    background-color: cornflowerblue;
+    min-height: 200px;
+}
+.contenedorflexCentradoPerfecto{
+    @extend %contenedor;
+    align-items: center;
+    justify-content: center;
+    >div{
+        @extend %capahija;
+    }
+}
+.contenedorflex{
+   @extend %contenedor;
+    align-items: center;
+    > div{
+        @extend %capahija;
+    }
+}
+
+
+

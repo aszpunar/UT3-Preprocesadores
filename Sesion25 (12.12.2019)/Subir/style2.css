@@ -1,0 +1,22 @@
+.contenedorFcentradoperfecto, .contenedorFcentradohorizontal {
+  display: flex;
+  background-color: lightcyan;
+  min-height: 300px;
+  justify-content: center;
+}
+
+.contenedorFcentradoperfecto > div, .contenedorFcentradohorizontal > div {
+  background-color: pink;
+  margin: 15px;
+  padding: 18px;
+  font-size: 2rem;
+}
+
+.contenedorFcentradohorizontal {
+  align-items: flex-start;
+}
+.contenedorFcentradoperfecto {
+  align-items: center;
+}
+
+/*# sourceMappingURL=style2.css.map */

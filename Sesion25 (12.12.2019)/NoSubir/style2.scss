@@ -1,0 +1,48 @@
+// Una clase .contenedorFcentradohorizontal que tenga
+    // display:flex;
+    // backcolor:lightblue;
+    //justifycontent:center;
+    // minheight:700px;
+        //Capas hijas con lo siguiente
+            // backolor:pink;
+            // margin:15px;
+            // padding:18px;
+            // fontsize:2rem;
+// Ahora una clase .contenedorFCentradoPerfecto con lo siguiente
+    // display:flex;
+    // backcolor:lightblue;
+    //justifycontent:center;
+    // minheight:700px;
+    //alignitems:center;
+        //Dentro de el capas hijas con lo siguiente
+            // backolor:pink;
+            // margin:15px;
+            // padding:18px; 
+            // fontsize:2rem;
+
+%contenedor{
+    display: flex;
+    background-color: lightcyan;
+    min-height: 300px;
+    justify-content: center;
+}
+%capashijas{
+    background-color: pink;
+    margin:15px;
+    padding: 18px;
+    font-size: 2rem;
+}
+.contenedorFcentradohorizontal{
+    align-items: flex-start;
+    @extend %contenedor;
+    > div{
+        @extend %capashijas;
+    }
+}
+.contenedorFcentradoperfecto{
+    @extend %contenedor;
+    align-items: center;
+    > div{
+        @extend %capashijas;
+    }
+}
