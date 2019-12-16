@@ -1,0 +1,80 @@
+@charset "UTF-8";
+h1 {
+  text-align: center;
+  width: 50%;
+  background-color: pink;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.contenedor {
+  overflow: auto;
+  background-color: rgba(176, 224, 230, 0.411);
+}
+
+#listamenu {
+  margin: 0;
+  padding: 0;
+}
+#listamenu .elementomenu {
+  background: #6cdceb;
+  border: 6px solid pink;
+  border-radius: 4px;
+  list-style-type: none;
+  margin: 4px;
+  padding: 10px;
+}
+
+@media screen and (min-width: 480px) {
+  #barralateral {
+    width: 200px;
+    float: left;
+  }
+
+  #principal {
+    margin-left: 216px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #barralateral {
+    float: none;
+    width: auto;
+  }
+
+  #principal {
+    margin-left: 4px;
+    margin-right: 4px;
+  }
+}
+* {
+  /*En todos los elementos vamos a aplicar la propiedad box-sizin, es decir, 
+  el padding y border se incluirán en el ancho y alto del elemento*/
+  box-sizing: border-box;
+}
+
+/* Estilo del menú */
+.menusuperior {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Estilo de los elementos del menú */
+.menusuperior a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* En pantallas inferiores a 600px, el menú se visualizará 
+verticalmente y sus elementos ocuparán el 100% del ancho */
+@media screen and (max-width: 600px) {
+  .menusuperior a {
+    float: none;
+  }
+}
+
+/*# sourceMappingURL=estilo3.css.map */
